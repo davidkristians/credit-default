@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-06-23T08:15:50.133338+00:00",
+  "n_rows": 28500,
+  "n_features": 52,
+  "default_rate": 0.2212,
+  "roc_auc_per_model": {
+    "Logistic Regression": 0.769,
+    "Random Forest": 0.79,
+    "XGBoost": 0.7921
+  },
+  "champion": "XGBoost",
+  "backup": "Random Forest",
+  "champion_brier": 0.1339,
+  "note": "Champion dipilih otomatis via ROC-AUC. AUC ~0.78 = plafon dataset."
+}
