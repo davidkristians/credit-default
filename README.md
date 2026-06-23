@@ -29,7 +29,7 @@ credit-default/
 └── .github/workflows/retrain.yml  # pemicu retrain saat data/kode berubah
 ```
 
-## Peta ke requirement dosen
+## Peta requirement
 
 | Requirement | Dipenuhi oleh |
 |---|---|
@@ -52,7 +52,7 @@ python src/train.py --data data/training_data.csv --out models
 streamlit run app.py
 ```
 
-## Skrip demo sidang (urut)
+## Demo
 
 1. **Prediksi (Jalur A).** Dashboard -> pilih Customer ID / isi form bahasa-bisnis
    ("Telat 2 bulan") -> tampil probabilitas + kategori + rekomendasi (Tinjau/Pantau).
